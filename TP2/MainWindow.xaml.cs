@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TP2.Viev.Command;
 
 namespace TP2
 {
@@ -23,6 +24,7 @@ namespace TP2
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new First();
         }
     }
 }
